@@ -6,14 +6,72 @@
     --accent: #6a91cf ;
     --accent-secondary: rgb(234, 162, 33);
     --accent-tertiary: #ed3196;
+    --border-white: #e5e5e5;
+    --box-shadow-white: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
  * {
-    background: var(--background);
     font-family: 'Times New Roman', Times, serif;
 }
 
 /* This section is for "Top Section"*/
+.AboutMe {
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--border-white);
+    box-shadow: var(--box-shadow-white);
+}
+
+.AboutMe h1{
+    font-size: 30px;
+    
+}
+
+.AboutMe p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.social-container {
+    padding: 25px 50px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transformation 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-12px);
+    }
+  }
+
+a.github {
+    color: black;
+}
+
+a.linkedin {
+    color: rgb(10,102,194);
+}
 
 .MeAtDisney {
     width: 200px;
@@ -21,5 +79,6 @@
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
-    object-position: -50%;
+    object-position: 25%;
+    padding-top: 10px;
 }
