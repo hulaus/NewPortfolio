@@ -85,6 +85,13 @@ a.linkedin {
 
 .WhoAmI {
     background-color: var(--accent);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    text-align: center;
+    border: 1px solid var(--accent-tertiary);
+    box-shadow: var(--accent-tertiary);
 }
 
 .wave {
