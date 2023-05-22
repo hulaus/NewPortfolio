@@ -1,14 +1,21 @@
 import React from "react";
+import Card from 'react-bootstrap/Card'
+
 
 function SkillsPage() {
     return(
-        <h1>
-            This will showcase my technical skills
-            such as js, react, css html etc
-            Maybe I will make a three section table? 
-            Be more create and make a ring? Three Sections... 
-            Still deciding
-        </h1>
+     <>
+     <div className="SkillsCards">
+        <Card>
+        <Card.Header>
+            <h1>Hello World</h1>
+        </Card.Header>
+        <Card.Text>
+            What is up yall
+        </Card.Text>
+        </Card>
+     </div>
+     </>
     )
 }
 

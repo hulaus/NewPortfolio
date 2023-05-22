@@ -16,13 +16,13 @@
 
 /* This section is for "Top Section"*/
 .AboutMe {
-
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 20px;
     border: 1px solid var(--border-white);
     box-shadow: var(--box-shadow-white);
+    margin-bottom: -25px;
 }
 
 .AboutMe h1{
@@ -84,14 +84,23 @@ a.linkedin {
 }
 
 .WhoAmI {
-    background-color: var(--accent);
+    background-color: var(--accent-tertiary);
     border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: -20px;
+    padding: 25px;
+    margin: 0 auto;
     text-align: center;
-    border: 1px solid var(--accent-tertiary);
-    box-shadow: var(--accent-tertiary);
+    border: 1px solid var(--accent-secondary);
+    box-shadow: 0px 0px 10px var(--accent-secondary);
+    color: white;
+    width: 55%;
+}
+
+.WhoAmI h2{
+    font-size: 25px;
+}
+
+.WhoAmI p {
+    font-size: 18px;
 }
 
 .wave {
@@ -111,4 +120,25 @@ a.linkedin {
     50% { transform: rotate(10.0deg) }
     60% { transform: rotate( 0.0deg) }
     100% { transform: rotate( 0.0deg) }
+}
+
+/* This will be for the Work Experience Page*/
+
+.Work {
+    text-align: center;
+
+}
+
+.Work h2 {
+    font-size: 30px;
+}
+
+.Work img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid var(--border-white);
+    box-shadow: var(--box-shadow-white);
+    margin-bottom: -25px;
 }

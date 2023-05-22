@@ -1,13 +1,12 @@
 import React from "react";
 
-function WebFooter() {
+function Education() {
     return(
         <h1>
-            This is the footer
-            Adding a links for github, LinkedIn
-            and Email? 
+            I will add my education here. At the end of everything... 
+            Including my bootcamp and certs I am working towards
         </h1>
     )
 }
 
-export default WebFooter
+export default Education

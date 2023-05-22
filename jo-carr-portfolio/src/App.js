@@ -1,8 +1,7 @@
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
-import WebFooter from './components/WebFooter';
+import Education from './components/WebFooter';
 import Projects from './components/Projects';
 import WorkExperience from './components/WorkExperience';
 import SkillsPage from './components/SkillsPage';
@@ -30,7 +29,7 @@ function App() {
       </div>
       <div className='footer-wrapper'>
       <footer>
-        <WebFooter />
+        <Education />
       </footer>
       </div>
     </div>

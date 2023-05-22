@@ -17,7 +17,7 @@ function TopSection() {
         </div>
         <div>
             <div className="WhoAmI">
-                <h2>Hello I'm Joseph! <span className="wave">👋</span>  
+                <h2>Hello, I'm Joseph! <span className="wave">👋</span>  
                 </h2>
                 <p>
                     For the past year, I have been engaged in the world of full-stack development eager to gain valuable experience. While I may be at the early stages of my journey, my ability to adapt swiftly and my drive make up for any lack of experience.

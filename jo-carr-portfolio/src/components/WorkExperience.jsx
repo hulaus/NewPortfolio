@@ -1,13 +1,14 @@
 import React from "react";
+import SadDog from './Assets/images/SadDog.png'
 
 function WorkExperience() {
     return(
-        <h1>
-            This will be for my work experience
-            But because I do not have any I Will
-            Make a joke about Maybe the person viewing This
-            could be my first work experience
-        </h1>
+       <>
+          <div className="Work">
+            <h2>Work Experience</h2>
+       <img  src={ SadDog } alt="Sad Bulldog Facing The left"/>
+       </div>
+       </>
     )
 }
 
