@@ -122,6 +122,42 @@ a.linkedin {
     100% { transform: rotate( 0.0deg) }
 }
 
+/* This Will be for the Skills Page*/
+
+.SkillsCards{
+    display:inline-block;
+    flex-wrap:wrap;
+    text-align: center;
+    height: 200px;
+    min-width: fit-content;
+    width: 33%;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--border-white);
+    box-shadow: var(--box-shadow-white);
+}
+
+@media screen and (max-width: 767px) {
+    .SkillsCards {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+.SkillsCards h2{
+    font-size: 25px;        
+}
+
+.SkillsCards p{
+    font-size: 18px;
+}
+
+
 /* This will be for the Work Experience Page*/
 
 .Work {
