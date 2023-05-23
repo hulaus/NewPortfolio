@@ -129,7 +129,6 @@ a.linkedin {
     flex-wrap:wrap;
     text-align: center;
     height: 200px;
-    min-width: fit-content;
     width: 33%;
     margin-top: 40px;
     padding-top: 30px;
