@@ -6,6 +6,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 function SkillsPage() {
     return(
      <>
+     <div className="SkillsCardsContainer">
      <div className="SkillsCards">
         <Card>
         <Card.Header>
@@ -53,6 +54,7 @@ function SkillsPage() {
         </ListGroup>
         </Card>
      </div>
+    </div>
      </>
     )
 }

@@ -14,20 +14,23 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
+
 /* This section is for "Top Section"*/
 .AboutMe {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 20px;
+    padding: 25px;
+    border-radius: 25px;
     border: 1px solid var(--border-white);
     box-shadow: var(--box-shadow-white);
-    margin-bottom: -25px;
+    margin-bottom: -30px;
+    margin-left: 15px ;
 }
 
 .AboutMe h1{
     font-size: 30px;
-    
+    margin-top: 10px;
 }
 
 .AboutMe p{
@@ -124,12 +127,21 @@ a.linkedin {
 
 /* This Will be for the Skills Page*/
 
+.SkillsCardsContainer{
+    display: flex;
+    justify-content: center;
+}
+
 .SkillsCards{
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
     display:inline-block;
+    vertical-align: top;
     flex-wrap:wrap;
     text-align: center;
     height: 200px;
-    width: 33%;
+    width: 32%;
     margin-top: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -138,8 +150,15 @@ a.linkedin {
     box-shadow: var(--box-shadow-white);
 }
 
+
 @media screen and (max-width: 767px) {
     .SkillsCards {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .SkillsCardsContainer{
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -169,8 +188,8 @@ a.linkedin {
 }
 
 .Work img {
-    width: 450px;
-    height: 450px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 20px;
     border: 1px solid var(--border-white);
