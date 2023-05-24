@@ -144,7 +144,7 @@ a.linkedin {
     width: 32%;
     margin-top: 40px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     border-radius: 20px;
     border: 1px solid var(--border-white);
     box-shadow: var(--box-shadow-white);
@@ -161,11 +161,16 @@ a.linkedin {
     .SkillsCardsContainer{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 }
 
+
+.ListGroup {
+    font-size: 18px;
+    
+}
 
 .SkillsCards h2{
     font-size: 25px;        

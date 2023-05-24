@@ -1,7 +1,8 @@
 import React from "react";
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHtml5, faCss3, } from "@fortawesome/free-brands-svg-icons";
 
 function SkillsPage() {
     return(
@@ -13,7 +14,7 @@ function SkillsPage() {
             <h2>Front-End Development</h2>
         </Card.Header>
         <ListGroup variant="flush" className="ListGroup">
-            <ListGroup.Item>HTML</ListGroup.Item>
+            <ListGroup.Item> HTML<span><FontAwesomeIcon icon={faHtml5} size="2x" style={{color:"#E44D26", verticalAlign:"middle"}} /></span></ListGroup.Item>
             <ListGroup.Item>CSS</ListGroup.Item>
             <ListGroup.Item>JavaScript</ListGroup.Item>
             <ListGroup.Item>React</ListGroup.Item>
