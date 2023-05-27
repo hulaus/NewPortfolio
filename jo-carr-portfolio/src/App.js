@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
-import Education from './components/WebFooter';
+import Education from './components/Education';
 import Projects from './components/Projects';
 import WorkExperience from './components/WorkExperience';
 import SkillsPage from './components/SkillsPage';

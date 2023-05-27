@@ -2,7 +2,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs } from "@fortawesome/free-brands-svg-icons";
 
 function SkillsPage() {
     return(
@@ -15,8 +15,8 @@ function SkillsPage() {
         </Card.Header>
         <ListGroup className="ListGroup">
             <ListGroup.Item className="ListedItem"> HTML<span><FontAwesomeIcon icon={faHtml5} size="1.5x" style={{color:"#E44D26", verticalAlign:"middle", paddingBottom: "5px"}} /></span></ListGroup.Item>
-            <ListGroup.Item className="ListedItem">CSS <span><FontAwesomeIcon icon={faCss3} size="1.5x" style={{verticalAlign:"middle", paddingBottom: "5px"}}/></span></ListGroup.Item>
-            <ListGroup.Item className="ListedItem">JavaScript</ListGroup.Item>
+            <ListGroup.Item className="ListedItem">CSS <span><FontAwesomeIcon icon={faCss3} size="1.5x" style={{ color:"blue", verticalAlign:"middle", paddingBottom: "5px"}}/></span></ListGroup.Item>
+            <ListGroup.Item className="ListedItem">JavaScript<span><FontAwesomeIcon icon={faJs} size="1.5x" style={{color:"f0db4f", verticalAlign:"middle", paddingLeft:"5px",paddingBottom: "5px" }}/></span></ListGroup.Item>
             <ListGroup.Item className="ListedItem">React</ListGroup.Item>
             <ListGroup.Item className="ListedItem">UI/UX Design</ListGroup.Item>
             <ListGroup.Item className="ListedItem">Front-End Frameworks: React.js, Bootstrap</ListGroup.Item>
