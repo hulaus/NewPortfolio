@@ -203,11 +203,13 @@ a.linkedin {
 
 /* This section will be for my Education*/
 
-.EducationContainer {
-    align-items: center;
-}
 
 .EducationHeader h2 {
     font-size: 30px;
     text-align: center;
+}
+
+.EducationButton{
+    align-items: center;
+    background-color: #ed3196;
 }

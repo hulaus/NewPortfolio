@@ -1,5 +1,5 @@
 import React from "react";
-import Card from 'react-bootstrap/Card'
+import Button from "react-bootstrap/Button"
 
 function Education() {
     return(
@@ -9,11 +9,9 @@ function Education() {
         <h2>Education</h2>
     </div>
     <div>
-        <Card>
-            <Card.Header>
-                <h2>Continuing Education at UNLV</h2>
-            </Card.Header>
-        </Card>
+    <Button className="EducationButton" href="https://continuingeducation.unlv.edu/programs/software-development">
+        <h2>Continuing Education</h2>
+        </Button>
     </div>
             </div>
         </>
